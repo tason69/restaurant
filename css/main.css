@@ -1,0 +1,14 @@
+body {
+    background-color: blanchedalmond;
+}
+h1{
+    text-align: center;
+}
+article {
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: tomato;
+    border: 2px solid black;
+    
+}
+
