@@ -1,5 +1,10 @@
 
     <?php require 'vue/header.php';
+    function chargerClasse ($classe){
+      require $classe. '.php';
+  }
+  
+  spl_autoload_register('chargerClasse');
   ?>
     <title>les recettes de mamy</title>
   </head>
